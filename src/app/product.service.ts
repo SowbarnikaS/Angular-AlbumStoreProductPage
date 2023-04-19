@@ -5,8 +5,8 @@ import { Observable } form 'rxjs/Observable'
 
 @Injectable()
 export class ProductService{
-  private _albumUrl = '../assets/albums.json'
-    constructor(private _http: Http){
+  private _albumUrl = '../assets/album.json'
+  constructor(private _http: Http){
 
   }
 
